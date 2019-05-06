@@ -1,3 +1,3 @@
 # Portfolio Site
 
-[Live]: www.timothyjwu.com
+Live: www.timothyjwu.com
