@@ -2057,7 +2057,10 @@ input, select, textarea {
 			}
 		.skill-img {
 			/* height: 40px; */
-			width: 75px;
+			width: 60px;
+		}
+		#conbrite-img {
+			width: 560px;
 		}
 		.icon.style1 {
 			color: #00ffcc;
@@ -2775,9 +2778,6 @@ input, select, textarea {
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 	}
-	#one {
-		padding: 3em 0 1em 0 ;
-	}
 		.wrapper > .inner {
 			width: 60em;
 			margin: 0 auto;
@@ -2804,8 +2804,17 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/image3.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/image3.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/image3.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/image3.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 3em 0 1em 0;
+			/* background-color: #21b2a6; */
+			/* color: #b2bbba; */
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
