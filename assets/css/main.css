@@ -2063,6 +2063,10 @@ input, select, textarea {
 		#conbrite-img {
 			/* width: 560px; */
 		}
+		#location-icon,
+		#email-icon {
+			padding-right: 1em;
+		}
 		.icon.style1 {
 			color: #00ffcc;
 		}
@@ -2120,7 +2124,7 @@ input, select, textarea {
 			}
 
 	#profile-pic {
-		
+		width: 90%;
 	}
 /* List */
 
@@ -3152,7 +3156,17 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
+			
 			background-color: transparent;
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/image3.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/image3.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/image3.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/image3.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 3em 0 1em 0;
 		}
 
 		.wrapper.style5 {
@@ -3904,9 +3918,13 @@ input, select, textarea {
 	}
 
 		#footer .icons {
-			font-size: 1.25em;
+			font-size: 40px;
+			margin: 0;
 		}
-
+			#footer .icons p {
+				font-size: 14px;
+				margin-top: 10px;
+			}
 			#footer .icons a {
 				color: rgba(255, 255, 255, 0.5);
 			}
@@ -3989,7 +4007,16 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../../images/image3.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../../images/image3.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../../images/image3.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("../../images/image3.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 3em 0 1em 0;
+			background-color: rgba(29, 36, 42, 0.9);
 	}
 
 	body.is-mobile.landing #page-wrapper {
